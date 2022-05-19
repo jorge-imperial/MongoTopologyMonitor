@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: test
+      uri: mongodb+srv://user:P4ssw0rd@cluster0.hqulf.mongodb.net/productdb?connectTimeoutMS=10000&readPreference=secondaryPreferred
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
